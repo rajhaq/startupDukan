@@ -37,9 +37,10 @@
                             <td>
 							Bkash
                             </td>
-                            <td style="text-align: right;">
-                               ৳ 500
-							</td>
+							<td style="text-align: right;">৳ 
+							<?php $number=844; $number= number_format($number, 2, '.', ',');
+							echo $number
+							?></a></td>
                         </tr>
 						<tr>
                             <td style="text-align: center;">

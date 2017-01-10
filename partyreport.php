@@ -27,10 +27,20 @@
                     <tbody>
                       <tr>
                         <td style="text-align: center;">1</td>
-                        <td>Bhai Brothers LTD</td>
-                        <td style="text-align: center;">৳ 12000</td>
-                        <td style="text-align: center;">৳ 9000</td>
-                        <td style="text-align: center;">৳ 3000</a></td>
+                        <td>Bhai Brothers LTD</td>                        
+						<td style="text-align: center;">৳ 
+						<?php $number=12000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
+                        <td style="text-align: center;">৳ 
+						<?php $number=9000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
+                        <td style="text-align: center;">৳ 
+						<?php $number=3000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
+
                       </tr>
 
  

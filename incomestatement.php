@@ -26,7 +26,11 @@
 								<tbody id="invtable">
 									<tr>
 										<td>12 Dec 2016</td>
-										<td style="text-align: right;">৳ 844.00</td>
+										<td style="text-align: right;">৳ 
+										<?php $number=844; $number= number_format($number, 2, '.', ',');
+										echo $number
+										?></a></td>
+
 										<td>
 											Sales : <a target="_blank" href="http://192.168.1.4/capsol/sales/details/538.aspx" data-original-title="">538</a>                            </td>
 										<td>Exploria Solution</td>

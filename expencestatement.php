@@ -27,7 +27,10 @@
 								<tbody id="invtable">
 									<tr>
 										<td>12 Dec 2016</td>
-										<td style="text-align: right;">৳ 844.00</td>
+										<td style="text-align: right;">৳ 
+										<?php $number=844; $number= number_format($number, 2, '.', ',');
+										echo $number
+										?></a></td>
 										<td>
 											Sales return 
 										</td>

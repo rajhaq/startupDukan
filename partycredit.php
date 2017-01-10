@@ -31,8 +31,15 @@
                         <td style="text-align: center;">1</td>
                         <td>Bhai Brothers LTD</td>
                         <td style="text-align: center;">11 Dec 2016</td>
-                        <td style="text-align: center;">৳ 2000</a></td>
-                        <td style="text-align: center;">৳ 5000</a></td>
+                        <td style="text-align: center;">৳ 
+						<?php $number=2000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
+                        <td style="text-align: center;">৳ 
+						<?php $number=5000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
+
                         <td style="text-align: center;">Cash</a></td>
                         <td>Payment before new year</a></td>
                       </tr>

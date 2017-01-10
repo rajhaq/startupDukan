@@ -31,11 +31,20 @@
                       <tr>
                         <td style="text-align: center;">1</td>
                         <td>Bhai Brothers LTD</td>
-                        <td style="text-align: center;">17 Dec2016</td>
+                        <td style="text-align: center;">17 Dec 2016</td>
                         <td style="text-align: center;">#18870</td>
-                        <td style="text-align: center;">৳ 10000</a></td>
-                        <td style="text-align: center;">৳ 1000</a></td>
-                        <td style="text-align: center;">৳ 9000</a></td>
+                        <td style="text-align: center;">৳ 
+						<?php $number=10000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
+                        <td style="text-align: center;">৳ 
+						<?php $number=1000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
+                        <td style="text-align: center;">৳ 
+						<?php $number=9000; $number= number_format($number, 2, '.', ',');
+						echo $number
+						?></a></td>
                         <td style="text-align: center;">
 						  <a href="#myModal" role="button" class="btn btn-small btn-success btn-block" data-toggle="modal" data-original-title="">
 							Pay
