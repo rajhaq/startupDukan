@@ -1,8 +1,4 @@
-<?php
-session_start();
-?>
-<?php include 'header.php';?>
-<?php include 'head.php';?>
+<?php include 'lib/header.php';?>
 <div class="container-fluid">
 <div class="dashboard-wrapper">
 <?php include 'navbar.php';?>	
@@ -18,4 +14,4 @@ session_start();
 
 </div>
 </div>
-<?php include 'footer.php';?>
+<?php include 'lib/footer.php';?>
